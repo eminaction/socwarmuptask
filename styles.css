@@ -1,3 +1,10 @@
+* {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    color: #222;
+}
+body {
+    margin: 0%;
+}
 #banner {
     background-color: #F7F7F7;
     font-display: center;
@@ -13,6 +20,118 @@
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
 }
-body {
-    margin: 0%;
+#menu-search {
+    padding-top: 18px;
+}
+#menu-logo {
+    width: 120px;
+    margin-left: 30px;
+}
+.center-nav {
+  float: none;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center-nav a {
+   padding: 0 16px;
+   font-size: 16px;
+}
+.stays-link{
+    font-weight: 540;
+}
+.experiences-link, .online-experiences-link {
+    font-weight: 300;
+    color: gray
+}
+.right-nav {
+    float: right;
+    padding-right: 30px;
+    font-size: 14px;
+}
+.your-link {
+    vertical-align: top;
+    padding-top:15px;
+    padding-right: 10px;
+    display: inline-block;
+    font-weight: 490;
+}
+#earth {
+    padding-left: 10px;
+    padding-right: 15px;
+    vertical-align: top;
+    padding-top: 15px;
+}
+#login-icon {
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-spacing: 200px;
+    border-radius: 25px 25px;
+    max-height: 30px;
+}
+.search {
+    align-items: center;
+    text-align: left;
+    flex-wrap: nowrap;
+    max-width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 15px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 5px lightgray;
+
+}
+/*
+#search-bar {
+    width: 400px;
+    border: none;
+    text-align: center;
+}
+.search-placeholders {
+    margin-top: 0
+}
+p {
+    align-items: center;
+    display: inline;
+}*/
+.bar {
+    display: inline-block;
+    text-align: left;
+    margin-top: 2px;
+    border-right: 1px solid lightgray;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-right: 120px;
+    margin-bottom: 2px;
+}
+.bar.who {
+    display: inline-block;
+    text-align: left;
+    margin-top: 2px;
+    padding-right: 90px;
+    border: none;
+    font-size: 13px;
+}
+#search-button {
+    margin-right: -90px;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-bottom: 15px;
+    border-radius: 50px;
+    margin-left: 90px;
+    color: red;
+}
+.bar.dates {
+    display: inline-block;
+    text-align: left;
+    margin-top: 2px;
+    border-right: 1px solid lightgray;
+    font-size: 13px;
+    margin-left: 10px;
+    padding-right: 50px;
+    margin-bottom: 2px;
 }
