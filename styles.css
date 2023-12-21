@@ -135,3 +135,10 @@ p {
     padding-right: 50px;
     margin-bottom: 2px;
 }
+#search-icon {
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-top: -15px;
+    margin-left: 90px;
+    margin-bottom: 5px;
+}
