@@ -19,6 +19,7 @@ body {
     color: #222;
     border-bottom: 1px solid #EBEBEB;
     border-top: 1px solid #EBEBEB;
+    margin-bottom: 20px
 }
 #menu-search {
     padding-top: 18px;
@@ -30,7 +31,7 @@ body {
 .center-nav {
   float: none;
   position: absolute;
-  top: 10%;
+  top: 12%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -76,11 +77,13 @@ body {
     max-width: 100%;
     border: 1px solid lightgray;
     border-radius: 50px;
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 380px;
+    margin-right: 300px;
     margin-top: 15px;
     padding-left: 20px;
     box-shadow: 2px 2px 5px lightgray;
+    max-width: 52%;
+    margin-bottom: 20px;
 
 }
 /*
@@ -118,7 +121,7 @@ p {
 .bar.dates {
     display: inline-block;
     text-align: left;
-    margin-top: 2px;
+
     border-right: 1px solid lightgray;
     font-size: 13px;
     margin-left: 10px;
@@ -127,10 +130,13 @@ p {
 }
 #search-icon {
     border-radius: 50px;
-    vertical-align: middle;
-    margin-top: -15px;
+    margin-top: -19px;
     margin-left: 100px;
-    margin-bottom: 5px;
+    background-color:#FF385B;
+    color: white;
+    padding: 12px 12px;
+    display: inline-block;
+    vertical-align: middle
 }
 #properties {
     max-width: 100%;
@@ -187,6 +193,7 @@ div.gallery img {
    border-top: 1px solid #EBEBEB; 
    margin-top: 10px;
    height: 1px;
+   float: fixed;
 }
 .type-select {
     margin-top: 20px;
