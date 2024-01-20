@@ -208,7 +208,8 @@ div.gallery img {
    border-top: 1px solid #EBEBEB; 
    margin-top: 10px;
    height: 1px;
-   width: 100%
+   width: 100%;
+   position: sticky;
 }
 .type-select {
     margin-top: 20px;
@@ -324,3 +325,22 @@ details>summary {
   summary::after {
     content: ' ⋁';
   }
+  .show-more {
+     width: 100%;
+     height: 130px;
+     text-align: center;
+     padding-top: 10px
+  }
+  .show-more button {
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 13px 22px;
+    font-size: 16px;
+    font-weight: 600
+  }
+.show-more h2 {
+    font-size: 18px;
+    font-weight:600
+}
