@@ -90,7 +90,7 @@ body {
     align-items: center;
     text-align: left;
     flex-wrap: nowrap;
-    max-width: 100%;
+    width: 840px;
     border: 1px solid lightgray;
     border-radius: 50px;
     margin-left: 380px;
@@ -98,7 +98,6 @@ body {
     margin-top: 15px;
     padding-left: 20px;
     box-shadow: 2px 2px 5px lightgray;
-    max-width: 52%;
     margin-bottom: 20px;
 
 }
@@ -209,6 +208,7 @@ div.gallery img {
    border-top: 1px solid #EBEBEB; 
    margin-top: 10px;
    height: 1px;
+   width: 100%
 }
 .type-select {
     margin-top: 20px;
