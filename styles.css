@@ -1,6 +1,8 @@
 * {
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
     color: #222;
+    text-decoration: none;
+    -webkit-font-smoothing: antialiased;
 }
 body {
     margin: 0%;
@@ -193,7 +195,6 @@ div.gallery img {
    border-top: 1px solid #EBEBEB; 
    margin-top: 10px;
    height: 1px;
-   float: fixed;
 }
 .type-select {
     margin-top: 20px;
@@ -233,7 +234,7 @@ div.type-image img {
     margin-top: 25px;
     margin-right: 100px;
     background-color: white;
-    font-size: 12px
+    font-size: 12px;
   }
   #filter img{
     float:left;
@@ -243,6 +244,69 @@ div.type-image img {
     display: inline-block;
     vertical-align: center;
     padding-top: 4px;
-    margin-left: -10px
+    margin-left: -10px;
+    text-decoration: none;
 }
+.more-locations {
+    width: 100%;
+    padding-bottom: 30px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #EBEBEB;
 
+}
+.locations {
+    width: 100%;
+    background-color: #F7F7F7;
+    height: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 14px;
+    font-weight: 300;
+    color: darkgray
+
+}
+.locations p {
+    display: inline;
+    background-color: #F7F7F7; 
+    padding-right: 30px
+}
+.locations h2 {
+    padding-top: 50px;
+}
+h2 {
+    text-decoration: none;
+}
+.suggestions{
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: #F7F7F7;
+    justify-content: space-around; 
+    vertical-align: top;
+    padding-top: 30px;
+    font-weight: 300;
+    font-style: darkgray
+
+}
+.suggestions div {
+    display: inline-block;
+    border: 0px;
+    padding-right: 135px;
+    font-size: 14px
+}
+/*summary::after{
+    content: '▼'
+}*/
+details>summary {
+ 
+    list-style: none;
+    
+  }
+  summary::-webkit-details-marker {
+    display: none
+  }
+  
+  summary::after {
+    content: ' ⋁';
+  }
