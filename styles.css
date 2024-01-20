@@ -23,8 +23,8 @@ body {
     border-top: 1px solid #EBEBEB;
     margin-bottom: 20px
 }
-#menu-search {
-    padding-top: 18px;
+#top-menu {
+    padding-top: 10px;
 }
 #menu-logo {
     width: 105px;
@@ -50,27 +50,41 @@ body {
 }
 .right-nav {
     float: right;
-    padding-right: 30px;
     font-size: 14px;
+    text-align: right;
+    padding-right: 80px
+
 }
 .home-link {
     vertical-align: top;
-    padding-top:15px;
     padding-right: 10px;
     display: inline-block;
     font-weight: 490;
+    border: 0px;
+    background-color: white
 }
-#earth {
+.earth-icon {
     padding-left: 10px;
     padding-right: 15px;
-    vertical-align: middle;
+    vertical-align: top;
+    border: 0px;
+    background-color: white
 }
-#login-icon {
-    padding: 5px;
+.login-icon {
+    margin-top: -15px;
+    margin-bottom: -10px;
+    padding: 7px;
     border: 1px solid lightgray;
     border-spacing: 200px;
     border-radius: 25px 25px;
-    max-height: 30px;
+    max-height: 50px;
+    vertical-align: top;
+    background-color: white
+}
+.login-icon svg {
+    padding-right: 5px;
+    padding-left: 5px;
+    vertical-align: middle
 }
 .search {
     align-items: center;
