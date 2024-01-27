@@ -7,6 +7,9 @@
 body {
     margin: 0%;
 }
+.desc u {
+    text-decoration-line: underline;
+}
 #banner {
     background-color: #F7F7F7;
     font-display: center;
@@ -263,18 +266,17 @@ div.type-image img {
     text-decoration: none;
 }
 .more-locations {
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 30px;
     background-color: #F7F7F7;
     border-bottom: 1px solid #EBEBEB;
+    padding-left: 80px
 
 }
 .locations {
-    width: 100%;
+    max-width: 100%;
     background-color: #F7F7F7;
     height: 100px;
-    padding-left: 60px;
-    padding-right: 60px;
     padding-bottom: 30px;
     border-bottom: 1px solid #EBEBEB;
     font-size: 14px;
@@ -285,7 +287,7 @@ div.type-image img {
 .locations p {
     display: inline;
     background-color: #F7F7F7; 
-    padding-right: 30px
+    padding-right: 30px;
 }
 .locations h2 {
     padding-top: 50px;
@@ -293,16 +295,18 @@ div.type-image img {
 h2 {
     text-decoration: none;
 }
+
 .suggestions{
-    padding-left: 60px;
-    padding-right: 60px;
+    max-width: 100%;
     background-color: #F7F7F7;
-    justify-content: space-around; 
     vertical-align: top;
     padding-top: 30px;
     font-weight: 300;
     font-style: darkgray
 
+}
+.suggestions b {
+    font-weight: 600
 }
 .suggestions div {
     display: inline-block;
@@ -343,4 +347,59 @@ details>summary {
 .show-more h2 {
     font-size: 18px;
     font-weight:600
+}
+.footer-info{
+    background-color: #F7F7F7;
+    vertical-align: top;
+    padding-top: 30px;
+    font-weight: 300;
+    font-style: darkgray;
+    width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: -20px
+
+}
+.footer-info div {
+    display: inline-block;
+    border: 0px;
+    font-size: 14px;
+}
+.support {
+    padding-left: 80px;
+    padding-right: 17%;
+    background-color: #F7F7F7;
+}
+.hosting {
+    padding-right: 21.5%;
+    background-color: #F7F7F7;
+}
+.airbnb {
+    background-color: #F7F7F7;
+}
+.footer-info b {
+    font-weight: 600
+}
+.footer-list {
+    padding-left: 80px;
+    font-size: 14px;
+    background-color: #F7F7F7;
+}
+.footer-list li {
+    display: inline;
+    padding-right: 5px;
+    
+}
+footer {
+    background-color: #F7F7F7;
+    height: 50px;
+    border-top: 1px solid #EBEBEB;
+
+}
+.social-icons {
+    display: inline-block;
+    width: 50%;
+}
+.social-icons li {
+    float: right;
+    padding-right: 15px
 }
