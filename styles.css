@@ -326,9 +326,10 @@ details>summary {
     display: none
   }
   
-  summary::after {
+  /*summary::after {
     content: ' ⋁';
-  }
+    font-weight: 400
+  }*/
   .show-more {
      width: 100%;
      height: 130px;
@@ -403,3 +404,224 @@ footer {
     float: right;
     padding-right: 15px
 }
+.small-search{
+    display: inline;
+    width: 100%;
+    margin-bottom: -150px
+    
+}
+.small-search i {
+    padding-right: 10px
+}
+.sm-bar {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 200px;
+    padding: 10px 60px 12px 10px;
+    border: 1px solid #EBEBEB; 
+    box-shadow: 1px 1px 10px #EBEBEB;
+    border-radius: 35px;
+}
+.small-search p{
+    display: inline-block;
+    font-size: 12px;
+    color: gray
+}
+.small-search p b {
+    font-weight: 600;
+    font-size: 14px;
+}
+#sm-search-icon {
+   color: black;
+   display: inline-block;
+   font-size: 30px
+
+}
+.sm-filter{
+    display:inline;
+    border: 1px solid gray;
+    border-radius: 100px;
+    width: 38px;
+    height: 38px;
+    float: right;
+    margin-top: -50px;
+    margin-right: 30px
+}
+.sm-filter svg {
+    display: inline-block;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 11px 
+}
+.mobile h2{
+    padding-bottom: 20px
+}
+.suggestions-mobile div {
+    padding-top: 20px;
+    display: inline-block;
+    border: 0px;
+    padding-right: 40px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    border: none
+}
+.suggestions-mobile p {
+    font-weight: 300;
+    color: gray
+}
+.footer-mobile {
+   padding-top: 20px;
+   margin-left: 25px;
+   background-color: #F7F7F7;
+   
+}
+.footer-mobile p {
+    display: inline;
+    padding-right: 25px;
+    font-size: 14px;
+    
+}
+.footer-mobile p b {
+    font-weight: 600
+}
+.info-mobile {
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 25px;
+    background-color: #F7F7F7;
+    padding-top: 15px;
+    margin-bottom: 30px
+}
+.info-mobile ul {
+    display: inline;
+    background-color: #F7F7F7;
+    width:  100%
+}
+.info-mobile li {
+    display: inline;
+    background-color: #F7F7F7;
+    font-size: 13px
+}
+.info-mobile p {
+    padding-bottom: 10px;
+    background-color: #F7F7F7;
+}
+
+@media only screen and (min-width: 430px) {
+    .small-search {
+        display: none
+    }
+    .mobile {
+        display: none
+    }
+}
+@media only screen and (max-width: 430px) {
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    .responsive {
+        width: 100%;
+        margin: 0;
+        padding: 0
+    }
+    div.gallery img {
+        margin:0;
+        width: 327px;
+        height: 310px;
+        border: 1px solid white;
+        border-radius: 10px;
+        object-fit: cover;
+        align-items: center;
+    }
+    #properties {
+        max-width: 100%;
+        display: inline-block;
+        align-items: center;
+        margin-top: 150px;
+        padding: 10px 0px 0px 0px;
+        /*border-top: 1px solid #EBEBEB;*/
+    }
+    .search {
+        display: none
+    }
+    #banner {
+        display: none
+    }
+    .property-type {
+        overflow: hidden;
+        border-top: 100px;
+        margin-bottom: -20px;
+        
+    }
+    #top-menu {
+        display: none
+    }
+
+    #filter {
+        display: none
+    }
+    .more-locations {
+        max-width: 100%;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        overflow: hidden
+    }
+    .support, .footer-list {
+        padding-left:0;
+    }
+    .not-mobile {
+        display: none;
+     }
+     .type-select {
+        margin-left: 22px;
+        padding-right: 55px;
+        align-items: center;
+        margin-bottom: -10px;
+        margin-top: 3px
+     }
+     .desc {
+        margin-left: 20px
+     }
+     .show-more button {
+        margin-top: 20px
+     }
+     .fixed-menu{
+        z-index: 1;
+        position: fixed;
+        height: 150px;
+        background-color: white;
+        width: 100%;
+     }
+     div.line-break {
+        margin-top: 80px;
+        border-bottom: 1px solid #EBEBEB;
+        box-shadow: 0 1px 2px #ebebeb
+     }
+     .footer-info {
+        border-top: 0.5px solid lightgray
+     }
+     .support p {
+        padding-bottom: 15px;
+        padding-left: 25px
+    }
+    .hosting p {
+        padding-bottom: 15px;
+    }
+    div.hosting {
+        border-top: 0.5px solid lightgray;
+        padding-top: 20px;
+        margin-left: 25px;
+        width: 65%
+    }
+    .airbnb p {
+        padding-bottom: 15px;
+    }
+    div.airbnb {
+        border-top: 0.5px solid lightgray;
+        padding-top: 20px;
+        margin-left: 25px;
+        width: 85%
+    }
+}    
