@@ -457,7 +457,7 @@ footer {
     padding-bottom: 20px
 }
 .suggestions-mobile div {
-    padding-top: 20px;
+    padding-top: 30px;
     display: inline-block;
     border: 0px;
     padding-right: 40px;
@@ -506,6 +506,24 @@ footer {
 .info-mobile p {
     padding-bottom: 10px;
     background-color: #F7F7F7;
+}
+.locations-mobile {
+    margin-left: 15px;
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid lightgray;
+}
+.locations-mobile h2 {
+    padding-top: 50px;
+   padding-bottom: 20px;
+   font-size: 22px
+}
+.locations-mobile p {
+    display: inline;
+    padding-right: 20px;
+    font-size: 14px;
+    color: gray;
+    font-weight: 500;
+    margin-top: 10px
 }
 
 @media only screen and (min-width: 430px) {
